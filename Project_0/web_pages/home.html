@@ -8,8 +8,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+
+    <style>
+      body {
+        background-image:url("images/ford_mustang.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .jumbotron{
+        background: rgba(0,0,0,0.0001);
+        text-align: left;
+      }
+
+      .button {
+        background-color: #2ECC71;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+      }
+
+    </style>
+
     <div class="topnav">
 
       <a href="about-us.html"><button type="button" class="btn btn-about-us">About Us</button></a>
@@ -22,19 +47,21 @@
 
     </div>
 
+  </head>
+
+  <body>
+
     <div class="jumbotron text-center">
       <div class="container">
-        <h1>Welcome to Arniston Classic Cars</h1>
-        <p class="screen-only">The Home of Classic Cars</p>
-        <a href="classic-cars.html" class="btn btn-classic-cars">See Our Stock</a>
+        <h1> Welcome to Arniston Classic Cars</h1>
+        <a href="classic-cars.html" type="button" class="button"> See Our Stock</a>
       </div>
     </div>
-
-    <img src="images/ford_mustang.jpg" alt="Nature" class="responsive">
 
     <div class="footer">
       <p1>Arnsiton Classic Cars, all rights reserved</p1>
     </div>
 
   </body>
+
 </html>
