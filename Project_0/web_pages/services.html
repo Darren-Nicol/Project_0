@@ -2,39 +2,145 @@
 <html>
     <head>
         <title>Services</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <link rel="stylesheet" href="styles.css">
 
         <style>
 
+        h2 {
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        /* Create three columns of equal width */
+        .columns {
+          float: left;
+          width: 33.3%;
+          padding: 8px;
+        }
+
+        /* Style the list */
+        .price {
+          list-style-type: none;
+          border: 1px solid #eee;
+          margin: 0;
+          padding: 0;
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+        }
+
+        /* Add shadows on hover */
+        .price:hover {
+          box-shadow: 0 8px 12px 0 black
+        }
+
+        /* Pricing header */
+        .price .header {
+          background-color: #111;
+          color: white;
+          font-size: 25px;
+        }
+
+        /* List items */
+        .price li {
+          border-bottom: 1px solid #eee;
+          padding: 20px;
+          text-align: center;
+        }
+
+        /* Grey list item */
+        .price .grey {
+          background-color: #eee;
+          font-size: 20px;
+        }
+
+        /* The "Contact Us" button */
+        .button {
+          background-color: #2ECC71;
+          border: none;
+          color: white;
+          padding: 10px 25px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 18px;
+        }
+
+        /* Change the width of the three columns to 100%
+        (to stack horizontally on small screens) */
+        @media only screen and (max-width: 600px) {
+          .columns {
+            width: 100%;
+          }
+        }
+
         </style>
     </head>
+
     <body>
 
         <div class="topnav">
-                <a href="home.html"><button type="button" class="btn btn-about-us">Home</button></a>
 
-                <a href="about-us.html"><button type="button" class="btn btn-about-us">About Us</button></a>
+          <a href="home.html"><button type="button" class="btn btn-about-us">Home</button></a>
 
-                <a href="classic-cars.html"><button type="button" class="btn btn-classic-cars">Classic Cars</button></a>
+          <a href="about-us.html"><button type="button" class="btn btn-about-us">About Us</button></a>
+
+          <a href="classic-cars.html"><button type="button" class="btn btn-about-us">Classic Cars</button></a>
+
+          <a href="contact.html"><button type="button" class="btn btn-about-us">Contact Us</button></a>
+
         </div>
 
-        <ol>
-            <li>Storage</li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit magna, hendrerit a tortor eu, euismod lobortis dolor. Integer accumsan orci et semper bibendum.</p>
-            <li>Maintenance</li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit magna, hendrerit a tortor eu, euismod lobortis dolor. Integer accumsan orci et semper bibendum.</p>
-            <li>Sales</li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit magna, hendrerit a tortor eu, euismod lobortis dolor. Integer accumsan orci et semper bibendum.</p>
-            <li>Rentals</li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit magna, hendrerit a tortor eu, euismod lobortis dolor. Integer accumsan orci et semper bibendum.</p>
-        </ol>
+        <h1>We are offer various levels of packages</h1>
+        <h2>Get in touch to discuss availability</h2>
+
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Belter</li>
+            <li class="grey">£ 24.99 / month</li>
+            <li>Undercover Storage</li>
+            <li>Monthly Check</li>
+            <li>Monthly Run</li>
+            <li>Weekly Access</li>
+            <li class="grey"><a href="contact.html" class="button">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Bling</li>
+            <li class="grey">£ 49.99 / month</li>
+            <li>Heated Facility</li>
+            <li>Monthly Check</li>
+            <li>Monthly Run</li>
+            <li>Weekly Access</li>
+            <li class="grey"><a href="contact.html" class="button">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Boom</li>
+            <li class="grey">£ 99.99 / month</li>
+            <li>Bubble Temp & Moisture Control</li>
+            <li>Monthly Check on Diagnostic Ramp</li>
+            <li>Monthly Run</li>
+            <li>Access on Request</li>
+            <li class="grey"><a href="contact.html" class="button">Contact Us</a></li>
+          </ul>
+        </div>
+
 
         <div class="footer">
           <p1>Arnsiton Classic Cars, all rights reserved</p1>
         </div>
-
 
     </body>
 </html>

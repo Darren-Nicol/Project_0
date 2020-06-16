@@ -15,6 +15,16 @@ p {
     font-family: Arial, sans-serif;
 }
 
+#services {
+    font-size: 28px;
+}
+
+@media print {
+                .screen-only {
+                    display: none;
+                }
+            }
+
 button {
   background-color: #2471A3;
   border: none;
@@ -25,6 +35,13 @@ button {
   display: inline-block;
   font-size: 16px;
   font-family: Arial, sans-serif;
+}
+
+.row > div {
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
 }
 
 /* Add a black background color to the top navigation */
