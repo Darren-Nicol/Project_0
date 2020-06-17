@@ -1,0 +1,29 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    @extend %message;
+    background-color: #2471A3;
+    color: black;
+    text-align: center;
+}
+
+.thanks {
+    @extend %message;
+    background-color: #4287f5;
+    color: black;
+    text-align: center;
+}
+
+.bye {
+    @extend %message;
+    background-color: #83aef2;
+    color: black;
+    text-align: center;
+}

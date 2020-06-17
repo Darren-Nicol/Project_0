@@ -1,0 +1,28 @@
+.bye, .thanks, .success {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+  background-color: #2471A3;
+  color: black;
+  text-align: center;
+}
+
+.thanks {
+  background-color: #4287f5;
+  color: black;
+  text-align: center;
+}
+
+.bye {
+  background-color: #83aef2;
+  color: black;
+  text-align: center;
+}
+
+/*# sourceMappingURL=sass_inheritance.css.map */

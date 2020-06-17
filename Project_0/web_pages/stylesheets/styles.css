@@ -15,16 +15,6 @@ p {
     font-family: Arial, sans-serif;
 }
 
-#services {
-    font-size: 28px;
-}
-
-@media print {
-                .screen-only {
-                    display: none;
-                }
-            }
-
 button {
   background-color: #2471A3;
   border: none;
@@ -37,6 +27,29 @@ button {
   font-family: Arial, sans-serif;
 }
 
+/* id styling */
+#conditions {
+    font-size:20px;
+}
+
+/* Removes certain website content on print */
+@media print {
+        .screen-only {
+          display: none;
+        }
+      }
+
+/* Added background color as light gray changes to white on
+@media request */
+body {
+  background-color: lightgray;
+}
+@media only screen and (max-width: 600px) {
+  body {
+  background-color: white;
+  }
+}
+
 .row > div {
   padding: 20px;
   background-color: white;
@@ -44,6 +57,7 @@ button {
   text-align: center;
 }
 
+/* Nav Bar */
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -73,13 +87,12 @@ button {
   color: white;
 }
 
-/* centre table */
+/* Center table */
 .center {
   margin-left: auto;
   margin-right: auto;
 }
-/* footer */
-
+/* Footer */
 .footer {
    position: fixed;
    left: 0;
@@ -91,7 +104,7 @@ button {
    font-family: Arial, sans-serif;
 }
 
-/* make image responsive */
+/* Home page image responsive */
 .responsive {
   width: 100%;
   height: auto;
