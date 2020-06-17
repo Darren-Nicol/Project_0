@@ -33,6 +33,3 @@ Thanks for reviewing and look forward to any comments.
 
 Best, Darren.      
 
-
-
-Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
